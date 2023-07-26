@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/logo1.png"/>
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+<style>
+    .card{
+    width: 15rem;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+}
+#about{
+    text-align: center;
+    color: brown;
+}
+#row{
+    background-color: rgb(240, 228, 228);
+    border: 2px solid orange;
+}
+.md-1{
+    border: 2px solid rgb(50, 205, 179);
+}
+footer{
+    background-color: lightgray
+}
+</style>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="" width="40" height="28" class="d-inline-block align-text-top">
+                E-Commerce
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Header-slider-home-section-->
+    <section class="home" id="home">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/page1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <button class="btn btn-light">Shop Now</button>
+              </div>
+              <div class="carousel-item">
+                <img src="images/page2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Best Price & offer</h5>
+                <p>NEW SEASON</p>
+                <button class="btn btn-light">Shop Now</button>
+              </div>
+              <div class="carousel-item">
+                <img src="images/page3.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <button class="btn btn-light">Shop Now</button>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <!--Product-section-->
+    <section class="product" id="product">
+        <div class="container my-3">
+            <h2>Our Product</h2>
+            <div class="row  my-3">
+                <div class="col md-3">
+                    <div class="card">
+                        <img src="images/pr1.png" alt="product1">
+                        <div class="card-body">
+                            <p>$100</p>
+                            <button class="btn btn-success">Order</button>
+                            <!-- <div class="card-header">
+                                <div class="card-footer">
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col md-3">
+                    <div class="card">
+                        <img src="images/pr2.png" alt="product1">
+                        <div class="card-body">
+                            <p>$100</p>
+                            <button class="btn btn-success">Order</button>
+                            <!-- <div class="card-header">
+                                <div class="card-footer">
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col md-3">
+                    <div class="card">
+                        <img src="images/pr3.png" alt="product1">
+                        <div class="card-body">
+                            <p>$100</p>
+                            <button class="btn btn-success">Order</button>
+                            <!-- <div class="card-header">
+                                <div class="card-footer">
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col md-3">
+                    <div class="card">
+                        <img src="images/pr4.png" alt="product1">
+                        <div class="card-body">
+                            <p>$100</p>
+                            <button class="btn btn-success">Order</button>
+                            <!-- <div class="card-header">
+                                <div class="card-footer">
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--card2-->
+        <div class="container my-3">
+            <div class="row  ">
+                <div class="col md-3">
+                    <div class="card">
+                        <img src="images/pr5.png" alt="product1">
+                        <div class="card-body">
+                            <p>$100</p>
+                            <button class="btn btn-success">Order</button>
+                            <!-- <div class="card-header">
+                                <div class="card-footer">
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col md-3">
+                    <div class="card">
+                        <img src="images/pr6.png" alt="product1">
+                        <div class="card-body">
+                            <p>$100</p>
+                            <button class="btn btn-success">Order</button>
+                            <!-- <div class="card-header">
+                                <div class="card-footer">
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col md-3">
+                    <div class="card">
+                        <img src="images/pr7.png" alt="product1">
+                        <div class="card-body">
+                            <p>$100</p>
+                            <button class="btn btn-success">Order</button>
+                            <!-- <div class="card-header">
+                                <div class="card-footer">
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col md-3">
+                    <div class="card">
+                        <img src="images/pr8.png" alt="product1">
+                        <div class="card-body">
+                            <p>$100</p>
+                            <button class="btn btn-success">Order</button>
+                            <!-- <div class="card-header">
+                                <div class="card-footer">
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--card3-->
+        <div class="container my-3">
+            <div class="row  my-3">
+                <div class="col md-3">
+                    <div class="card">
+                        <img src="images/pr9.png" alt="product1">
+                        <div class="card-body">
+                            <p>$100</p>
+                            <button class="btn btn-success">Order</button>
+                            <!-- <div class="card-header">
+                                <div class="card-footer">
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col md-3">
+                    <div class="card">
+                        <img src="images/pr10.png" alt="product1">
+                        <div class="card-body">
+                            <p>$100</p>
+                            <button class="btn btn-success">Order</button>
+                            <!-- <div class="card-header">
+                                <div class="card-footer">
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col md-3">
+                    <div class="card">
+                        <img src="images/pr11.png" alt="product1">
+                        <div class="card-body">
+                            <p>$100</p>
+                            <button class="btn btn-success">Order</button>
+                            <!-- <div class="card-header">
+                                <div class="card-footer">
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col md-3">
+                    <div class="card">
+                        <img src="images/pr12.png" alt="product1">
+                        <div class="card-body">
+                            <p>$100</p>
+                            <button class="btn btn-success">Order</button>
+                            <!-- <div class="card-header">
+                                <div class="card-footer">
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--about section-->
+    <section class="about" id="about">
+        <div class = "container">
+            <div class = "row gy-lg-5 align-items-center">
+                <div class = "col-lg-6 order-lg-1 text-center text-lg-start">
+                    <div class = "title pt-3 pb-5">
+                        <h2 class = "position-relative d-inline-block ms-4" id="about">About Us</h2>
+                    </div>
+                    <p class = "lead text-muted">Introducing "MY E-Commerce," your ultimate destination for all things tech! At this website, we are passionate about bringing you the latest and greatest and good quality product to enhance your digital lifestyle. Our user-friendly e-commerce website offers a seamless shopping experience, making it a breeze to explore our extensive product catalog. From state-of-the-art smartphones and sleek laptops to smart home devices and futuristic wearables, we curate a diverse range of high-quality products from top brands you trust. Our commitment to customer satisfaction is unwavering, and we strive to provide exceptional service from the moment you land on our site until your order reaches your doorstep. With secure payment options and swift delivery, shopping at Tech Haven is not just convenient but also safe. Join us in this tech journey and stay ahead in this digital world with Tech Haven!</p>
+                </div>
+                <div class = "col-lg-6 order-lg-0">
+                    <img src = "images/about us.png" alt = "" class = "img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact us section-->
+    <section class="contact" id="contact">
+        <div class="mt-5 conatiner">
+            <div class="text-center">
+                <h3 class="text-primary">How Can We Help You?</h3>
+                <p class="lead">Any problem so contact us</p>
+            </div>
+            <div class=" d-flex align-items-center justify-content-center">
+                <div class="bg-white col-md-4">
+                    <div class="p-4 rounded shadow-md">
+                        <div>
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mt-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="text" name="email" class="form-control" placeholder="Your Email" required>
+                        </div class="mt-3">
+                        <div class="mt-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="mt-3 mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea name="message" cols="20" rows="6" class="form-control"
+                                placeholder="message"></textarea>
+                        </div>
+                        <button class="btn btn-primary">
+                            Submit Form
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+ <!--FAQ section-->
+ <section class="faq" id="faq">
+    <div class="container py-5">
+        <h1 class="mb-4">Frequently Asked Questions</h1>
+        <div class="accordion w-100" id="faqAccordion">
+          <!-- FAQ Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                How can I create an account on your website?
+              </button>
+            </h2>
+            <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Creating an account with us is easy! Simply click on the "Sign Up" or "Register" button located at the top right corner of the website. Fill in the required information, such as your name, email address, and password, and then click "Create Account." Once your account is created, you can start enjoying a personalized shopping experience, track your orders, and receive exclusive offers.
+              </div>
+            </div>
+          </div>
+    
+          <!-- FAQ Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                What are the payment options available?
+              </button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                We offer a range of secure payment options to ensure a hassle-free checkout process. You can pay using major credit and debit cards, including Visa, MasterCard, and American Express. We also accept payments through popular digital wallets like PayPal, Google Pay, and Apple Pay. For certain regions, we provide the option of bank transfers. Rest assured, all transactions are encrypted to protect your financial information.
+              </div>
+            </div>
+          </div>
+          <!--FAQ ITEM 3-->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading3">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                How do I track my order?
+              </button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Once your order is confirmed and shipped, you will receive a confirmation email containing a tracking number. You can use this tracking number to monitor the status and location of your package. Additionally, you can log in to your account and navigate to the "Order History" section to track all your past and current orders conveniently.
+              </div>
+            </div>
+          </div>
+          <!-- FAQ Item 4-->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading4">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                What is your return and refund policy?
+              </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                We want you to be completely satisfied with your purchase. If, for any reason, you are not happy with your order, you can initiate a return within 30 days of receiving the product. Please ensure the item is in its original condition with all packaging intact. Once we receive the return, we will process your refund or exchange according to our refund policy.
+              </div>
+            </div>
+          </div>
+          <!-- FAQ Item 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading5">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                How long does it take to process my order?
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                We strive to process and ship orders as quickly as possible. Generally, orders are processed within 1-2 business days from the time of purchase. Delivery times may vary depending on your location and the shipping method chosen during checkout. Standard shipping typically takes 3-5 business days, while express shipping options may be available for quicker delivery.
+              </div>
+            </div>
+          </div>
+          <!-- FAQ Item 6 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading7">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                How can I contact customer support?
+              </button>
+            </h2>
+            <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+             You can contact our customer support team through various channels. You can send us an email at support@yourwebsite.com or use the "Contact Us" form on our website. Additionally, you can call our helpline at +92-7485994.
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+    <!--Footer-->
+    <div class="container">
+        <div class="row" id="row">
+            <div class="col md-1">4</div>
+            <div class="col md-1">2</div>
+            <div class="col md-1">3</div>
+            <div class="col md-1">0</div>
+            <div class="col md-1">1</div>
+            <div class="col md-1">5</div>
+            <div class="col md-1">8</div>
+            <div class="col md-1">8</div>
+            <div class="col md-1">9</div>
+            <div class="col md-1">7</div>
+            <div class="col md-1">4</div>
+            <div class="col md-1">6-0</div>
+        </div>
+    </div>
+ <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <div>
+            <h3> webistes</h3>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+        <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
+          <div class="">
+            <h4>Page discribtion</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">Service</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6">
+          <div>
+            <h4>Service</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none">Delivery</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">Branding</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">ordering</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">Good quality product</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6">
+          <div>
+            <h4>Contact</h4>
+            <div>
+              <label for="Newsletter" class="form-label">Like Our site</label>
+              <input type="text" class="form-control" Placeholder="Enter Your Email">
+              <button class="btn btn-danger mt-3">Liked</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="copyright">
+          <p>Developed and maintained by <a href="#" target="_blank">company</a></p>
+        </div>
+      </div>
+  
+    </div>
+  </footer>
+</body>
+<script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</html>
